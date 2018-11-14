@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{5AD60E43-9601-4F97-9558-B7075C9C47C4} = s 'NFS'
+		'NFS.EXE'
+		{
+			val AppID = s {5AD60E43-9601-4F97-9558-B7075C9C47C4}
+		}
+	}
+}

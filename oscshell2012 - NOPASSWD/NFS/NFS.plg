@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NFS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6DA6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/NFS.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\test\NFS\NFS.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6DA6.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/NFS.pdb" /debug /machine:I386 /out:"Debug/NFS.exe" /pdbtype:sept  .\Debug\StdAfx.obj .\Debug\NFS.obj .\Debug\NFS.res "
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6DA7.bat" with contents
+[
+@echo off
+".\Debug\NFS.exe" /RegServer
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+echo Server registration done!
+]
+Creating command line "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6DA7.bat"
+Compiling...
+NFS.cpp
+Linking...
+NFS.obj : error LNK2001: unresolved external symbol __imp__ShellExecuteExA@4
+NFS.obj : error LNK2001: unresolved external symbol __imp__PathFileExistsA@4
+Debug/NFS.exe : fatal error LNK1120: 2 unresolved externals
+Error executing link.exe.
+<h3>Output Window</h3>
+Creating command line "bscmake.exe /nologo /o"Debug/NFS.bsc"  .\Debug\StdAfx.sbr .\Debug\NFS.sbr"
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NFS.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,20 @@
+// NFS.idl : IDL source for NFS.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (NFS.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(12866679-3620-4C35-8833-38ADA3BC630E),
+	version(1.0),
+	helpstring("NFS 1.0 Type Library")
+]
+library NFSLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

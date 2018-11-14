@@ -1,0 +1,277 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\OSCConfig.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\OSCConfig.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 OSCConfig"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "OSCConfig，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_OSCCONFIG_DIALOG DIALOGEX 0, 0, 349, 276
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "OSC Shell Config"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "[audit]",IDC_STATIC,7,7,168,109
+    LTEXT           "ip=",IDC_STATIC,58,21,11,8
+    LTEXT           "user=",IDC_STATIC,50,36,19,8
+    LTEXT           "pwd=",IDC_STATIC,49,51,20,8
+    LTEXT           "port=",IDC_STATIC,50,66,19,8
+    LTEXT           "dbname=",IDC_STATIC,38,81,31,8
+    LTEXT           "dbtype=",IDC_STATIC,42,96,28,8
+    EDITTEXT        IDC_AUDIT_IP,70,18,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AUDIT_USER,70,33,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AUDIT_PWD,70,48,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AUDIT_PORT,70,63,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_AUDIT_DBNAME,70,78,92,14,ES_AUTOHSCROLL
+    GROUPBOX        "[osc]",IDC_STATIC,184,7,158,109
+    LTEXT           "ip=",IDC_STATIC,227,21,11,8
+    LTEXT           "user=",IDC_STATIC,219,36,19,8
+    LTEXT           "pwd=",IDC_STATIC,218,51,20,8
+    LTEXT           "port=",IDC_STATIC,219,66,19,8
+    LTEXT           "dbname=",IDC_STATIC,207,81,31,8
+    LTEXT           "dbtype=",IDC_STATIC,210,96,28,8
+    EDITTEXT        IDC_OSC_IP,240,18,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OSC_USER,240,33,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OSC_PWD,240,48,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OSC_PORT,240,63,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OSC_DBNAME,240,78,92,14,ES_AUTOHSCROLL
+    GROUPBOX        "[node]",IDC_STATIC,7,123,168,126
+    LTEXT           "code=",IDC_STATIC,49,141,22,8
+    LTEXT           "level=",IDC_STATIC,51,156,20,8
+    LTEXT           "monitorPort=",IDC_STATIC,28,171,43,8
+    LTEXT           "videoPath=",IDC_STATIC,34,186,37,8
+    LTEXT           "warningTimes_1=",IDC_STATIC,14,201,57,8
+    LTEXT           "warningTimes_2=",IDC_STATIC,14,216,57,8
+    EDITTEXT        IDC_NODE_CODE,72,138,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NODE_LEVEL,72,153,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NODE_MONITORPORT,72,168,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NODE_VIDEOPATH,72,183,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NODE_WARNINGTIME_1,72,198,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NODE_WARNINGTIME_2,72,213,92,14,ES_AUTOHSCROLL
+    LTEXT           "warningTimes_3=",IDC_STATIC,14,231,57,8
+    EDITTEXT        IDC_NODE_WARNINGTIME_3,72,228,92,14,ES_AUTOHSCROLL
+    GROUPBOX        "[WMIservice]",IDC_WMI,184,124,158,76
+    LTEXT           "wmiport=",IDC_STATIC,206,154,32,8
+    LTEXT           "tinterval=",IDC_STATIC,207,169,31,8
+    LTEXT           "dPrinter=",IDC_STATIC,207,184,31,8
+    EDITTEXT        IDC_WMI_PORT,241,151,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WMI_TINTERVAL,241,166,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WMI_DPRINTER,241,181,92,14,ES_AUTOHSCROLL
+    GROUPBOX        "[NFS]",IDC_STATIC,184,205,158,44
+    LTEXT           "cmd=",IDC_STATIC,219,217,19,8
+    EDITTEXT        IDC_NFS_CMD,241,214,92,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "保存",IDC_SAVE,6,255,50,14
+    LTEXT           "licenseport=",IDC_STATIC,198,139,40,8
+    EDITTEXT        IDC_WMI_LICPORT,241,136,92,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,70,94,92,147,CBS_DROPDOWNLIST | CBS_SORT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,240,94,92,146,CBS_DROPDOWNLIST | CBS_SORT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,5,0,2
+ PRODUCTVERSION 3,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "paraview"
+            VALUE "FileDescription", "config"
+            VALUE "FileVersion", "3.5.0.2"
+            VALUE "InternalName", "OSCConfig.exe"
+            VALUE "LegalCopyright", " (C) <paraview>。保留所有权利。"
+            VALUE "OriginalFilename", "OSCConfig.exe"
+            VALUE "ProductName", "osc"
+            VALUE "ProductVersion", "3.5.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_OSCCONFIG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 342
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OSCCONFIG_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 6, 0
+0x794d, 0x7153, 0x006c, 
+    IDC_COMBO1, 0x403, 7, 0
+0x724f, 0x6361, 0x656c, "\000" 
+    IDC_COMBO1, 0x403, 6, 0
+0x734d, 0x7153, 0x006c, 
+    IDC_COMBO2, 0x403, 6, 0
+0x794d, 0x7153, 0x006c, 
+    IDC_COMBO2, 0x403, 7, 0
+0x724f, 0x6361, 0x656c, "\000" 
+    IDC_COMBO2, 0x403, 6, 0
+0x734d, 0x7153, 0x006c, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 OSCConfig(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\OSCConfig.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

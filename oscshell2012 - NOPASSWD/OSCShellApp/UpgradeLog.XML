@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OSCShellApp">
+</Property><Property Name="Solution File" Value="E:\C\source\oscshell2012\OSCShellApp\OSCShellApp.sln">
+</Property><Property Name="Date" Value="2014年2月11日">
+</Property><Property Name="Time" Value="10:02">
+</Property></Properties><Event ErrorLevel="0" Project="OSCShellApp" Source="OSCShellApp.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="OSCShellApp" Source="OSCShellApp.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="OSCSHELL" Source="..\OSCShell\OSCSHELL.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="OSCSHELL" Source="..\OSCShell\OSCSHELL.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OSCShellApp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="OSCShellApp.sln" Description="Converted">
+</Event></UpgradeLog>

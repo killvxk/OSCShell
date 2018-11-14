@@ -1,0 +1,133 @@
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 06-8月 -2012 17:39:07
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 06-8月 -2012 18:19:58
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 06-8月 -2012 18:20:30
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 06-8月 -2012 18:21:19
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=c:\Ora10InstantClient\sqlplus.exe)(HOST=JASON-46CF1CA9A)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 06-8月 -2012 18:21:36
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: Message 12560 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Message 530 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 126
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle)(ARGV0=oracleORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))'))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=c:\Ora10InstantClient\sqlplus.exe)(HOST=JASON-46CF1CA9A)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 06-8月 -2012 18:22:03
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: Message 12560 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Message 530 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 126
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12170.
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 06-8月 -2012 18:22:35
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12535
+    TNS-12535: Message 12535 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Message 505 not found; No message file for product=NETWORK, facility=TNS
+    nt secondary err code: 60
+    nt OS err code: 0
+  Client address: <unknown>

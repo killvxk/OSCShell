@@ -1,0 +1,4 @@
+LIBRARY	"OSCSHELL"
+EXPORTS
+    CheckWebOnline    @1
+    MonitorSession	  @2
